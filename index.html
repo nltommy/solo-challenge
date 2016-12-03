@@ -4,6 +4,7 @@
     <title>Muay Thai</title>
     <link rel="stylesheet" href="styles.css">
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -12,8 +13,8 @@
         <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
     </nav>
-    <h1>Muay Thai</h1>
 
+  <main>
   <!-- Login Form -->
   <div class="form">
 	  <form action="success.html" method="get">
@@ -29,10 +30,11 @@
   </div>
 
   <!-- Page content -->
-  <section>
+  <section id="main-wrap">
+    <h1>Muay Thai</h1>
     <h2>A <em>Brief</em> Overview</h2>
     <p><strong>Muay Thai</strong> is a combat sport of Thailand that uses stand-up striking along with various clinching techniques. This physical and mental discipline, which includes combat on shins, is known as "the art of eight limbs." It is characterized by the combined use of:</p>  
-    <div>  
+    <div>
       <ul>
         <li>Fists</li>
         <li>Elbows</li>
@@ -40,7 +42,6 @@
         <li>Shins</li>
       </ul>
     </div>
-  </section>
 
     <!-- Ordered List of Top Fighters -->
     <h3>Top 5 Fighters <i>(in my opinion)</i></h3>
@@ -51,10 +52,14 @@
       <li>Samart Payakaroon</li>
       <li>Sorak Khamsing</li>
     </ol>
-
-	<img src="thai1.jpg" alt="roundhouse kick" />
-
-    <!-- Common Terms Table -->
+  </section>
+  
+  <div class="tb-content">
+    <img src="thai1.jpg" alt="roundhouse kick" />
+  </div>
+  
+  <!-- Common Terms Table -->
+  <div class="tb-content">
     <table>
       <tr>
       	<th colspan="2">Common Terms</th>
@@ -96,22 +101,21 @@
         <td><i>Thip trong</i></td>
       </tr>
     </table>
+  </div>
     
-    <!-- 
-    This site is beautiful! There are a lot of scripts and more 
-    style elements compared to what we have covered so far. I do
-    recognize numerous table and list elements as well as tons 
-    of hyperlink placeholders, image, and paragraph tags.
-    <iframe src="https://en.wikipedia.org/wiki/Muay_Thai" height="300" width="1200"></iframe>
-    -->
+    <div id="bottom-wrap">
+      <p><a href="https://en.wikipedia.org/wiki/Muay_Thai" class="nav-link">Click here</a> to learn more about Muay Thai on Wikipedia.</p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/2.0/">Thanks</a> to <a href="http://www.sportskeeda.com/">sportskeeda</a> for the incredible <a href="http://static.sportskeeda.com/wp-content/uploads/2014/07/tumblr_mbji71oh3m1rh6s7xo1_500-1404717448.jpg">photo</a> of Buakaw doing what he does best!</p>
 
-    <p><a href="https://en.wikipedia.org/wiki/Muay_Thai" class="nav-link">Click here</a> to learn more about Muay Thai on Wikipedia.</p>
-
-    <p><a href="https://creativecommons.org/licenses/by-sa/2.0/">Thanks</a> to <a href="http://www.sportskeeda.com/">sportskeeda</a> for the incredible <a href="http://static.sportskeeda.com/wp-content/uploads/2014/07/tumblr_mbji71oh3m1rh6s7xo1_500-1404717448.jpg">photo</a> of Buakaw doing what he does best!</p>
-
-    <footer>
-      <p>Webpage Author: Tommy</p>
-      <p>Email: <a href="mailto:thomaskclark@gmail.com">thomaskclark@gmail.com</a>.</p>
-    </footer>
+      <footer>
+        <p>Webpage Author: Tommy</p>
+        <p>Email: <a href="mailto:thomaskclark@gmail.com">thomaskclark@gmail.com</a>.</p>
+        <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /></a>
+        </p>
+      </footer>
+    </div>
+  </main>
   </body>
 </html>
